@@ -7,8 +7,16 @@ result = 0
 def equacao():
     if operacao == "+" :
         result = n1 + n2
-        print(result)
-
-
+        print("Resultado:", result)
+    elif operacao == "-":
+        result = n1 - n2
+        print("Resultado:", result)
+    elif operacao == "*":
+        result = n1 * n2
+        print("Resultado:", result)
+    elif operacao == "/":
+        result = n1 / n2
+        print("Resultado:", result)
+    
 equacao()
 
